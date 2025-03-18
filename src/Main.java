@@ -24,9 +24,13 @@ public class Main {
         System.out.println("sum By for do while  " +new Question1(). sumByForDoLoop(numbers));
         System.out.println("sum By for recurse  " +new Question1(). sumByForRecurse(numbers));
 
+
+        System.out.println("Question 2 ........");
         List<Object> mergedList = new Question2().mergedList(letters, numbers);
         System.out.println("mergedList.. "+mergedList);
 
+
+        System.out.println("Question 3........");
         List<Long> febonacciValues = new Question3().makeFirst100Fibonacci();
         System.out.println("First 100 febonacci numbers:");
         System.out.println(febonacciValues);
